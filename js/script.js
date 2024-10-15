@@ -6,6 +6,11 @@ console.log ("FizzBuzz")
 
 
 // 1. Scrivi i numeri da 1 a 100
+    for (let i = 0; i < 100; i++){
+        const num = i + 1
+        console.log(num)
+    }
+
 // 2. Multipli di 3
 //    - "Fizz" al posto del numero
 // 3. Multipli di 5
