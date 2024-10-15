@@ -13,6 +13,22 @@ console.log ("Repo-FizzBuzz")
 // 4. ALTRIMENTI Multipli di 3 e di 5
 //    - "FizzBuzz" al posto del numero
 
+
+for (var i = 1; i < 100; i++) {
+    if (i % 15 === 0){
+        console.log("FizzBuzz");
+    } else if (i % 3 === 0){
+        console.log("Fizz");
+    } else if (i % 5 === 0){
+        console.log("Buzz");
+    } else{
+        console.log(i);
+    }
+}
+
+
+// PROVE ERRATE 
+
     // for (let i = 0; i < 100; i++){
     //     let num = i + 1
     //     console.log(num) //numero
@@ -26,6 +42,7 @@ console.log ("Repo-FizzBuzz")
     // } else {num} //numero
     // }
 
+    
     // for (let i = 0; i < 100; i++){
     //     let num = i + 1
 
@@ -43,14 +60,19 @@ console.log ("Repo-FizzBuzz")
     //     }
     // }
 
-    for (var i=1; i < 100; i++) {
-            if (i % 15 === 0){
-                console.log("FizzBuzz");
-            } else if (i % 3 === 0){
-                console.log("Fizz");
-            } else if (i % 5 === 0){
-                console.log("Buzz");
-            } else{
-                console.log(i);
-            }
-        }
+
+    // for (var i = 0; i < 100; i++) {
+
+    //     let num = i+1
+
+    //     if (num % 15 === 0){
+    //         console.log("FizzBuzz");
+    //     } else if (num % 3 === 0){
+    //         console.log("Fizz");
+    //     } else if (num % 5 === 0){
+    //         console.log("Buzz");
+    //     } else{
+    //         console.log(i);
+    //     }
+    // }
+
